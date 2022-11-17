@@ -34,5 +34,5 @@ for dir_1 in os.listdir(directory_path):
         count += int(sol.split(";")[2][:-1])
         f.close()
 
-print("Time of computation: ". count)
+print("Time of computation: ", count)
 
